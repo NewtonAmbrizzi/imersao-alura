@@ -1,6 +1,8 @@
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.URI;
+import java.net.URL;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
@@ -26,9 +28,23 @@ public class App {
         List<Map<String, String>> listaDeFilmes = parser.parse(body);
 
         // exibir e manipular os dados
+        var geradora = new GeradoraDeFigurinhas();
         for (Map<String, String> filme : listaDeFilmes) {
+
+            String urlImagem = filme.get("image");
+            String titulo = filme.get("title");
+
+            String nomeArquivo = titulo.replace(":", "-") + ".png";
+
+            try {
+                InputStream inputStream = new URL(urlImagem).openStream();
+                System.out.println("Gerando imagem - [" + titulo + "]");
+                geradora.cria(inputStream, nomeArquivo);
+            } catch (java.io.FileNotFoundException err) {
+                System.out.println("Imagem não encontrada ou link inválido");
+            }
             System.out.println("Título: \u001b[38;2;174;14;50;1m" + filme.get("title") + "\u001b[m");
-            System.out.println("Poster: " + filme.get("image"));
+            System.out.println("Poster: " + urlImagem);
             System.out.println("\u001b[48;2;174;14;50;5m🎬 Avaliação imDB: " + filme.get("imDbRating") + "\u001b[m");
             double avaliacaoImdb = Math.floor(Double.parseDouble(filme.get("imDbRating")));
             for (int i = 0; i < avaliacaoImdb; i++)

@@ -16,7 +16,7 @@ Desenvolver uma solução para os grandes players de streaming de vídeo para im
 
 :heavy_check_mark: Colocar a chave da API do IMDB em algum lugar fora do código como um arquivo de configuração (p. ex, um arquivo .properties) ou uma variável de ambiente
 
-:x: Mudar o JsonParser para usar uma biblioteca de parsing de JSON como Jackson ou GSON
+:heavy_check_mark: Mudar o JsonParser para usar uma biblioteca de parsing de JSON como Jackson ou GSON
 
 :heavy_check_mark: Desafio supremo: criar alguma maneira para você dar uma avaliação ao filme, puxando de algum arquivo de configuração OU pedindo a avaliação para o usuário digitar no terminal.
 
@@ -25,11 +25,11 @@ Desenvolver uma solução para os grandes players de streaming de vídeo para im
 ### Desafios desta aula
 :x: Ler a documentação da classe abstrata InputStream.
 
-✔️ Centralizar o texto na figurinha.
+:heavy_check_mark: Centralizar o texto na figurinha.
 
 :x: Fazer um pacote no Whatsapp e/ou Telegram com as suas próprias figurinhas!
 
-✔️ Criar diretório de saída das imagens, se ainda não existir.
+:heavy_check_mark: Criar diretório de saída das imagens, se ainda não existir.
 
 :x: Colocar outra fonte como a Comic Sans ou a Impact, a fonte usada em memes.
 
@@ -43,7 +43,7 @@ Desenvolver uma solução para os grandes players de streaming de vídeo para im
 
 :x: Desafio supremo: usar alguma biblioteca de manipulação de imagens como OpenCV pra extrair imagem principal e contorná-la.
 
-## Aula 3️⃣ - Ligando as pontas, Refatoração e Orientação a objeto 💻
+## Aula :three: - Ligando as pontas, Refatoração e Orientação a objeto :computer:
 
 ### Desafios desta aula
 :x: Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16

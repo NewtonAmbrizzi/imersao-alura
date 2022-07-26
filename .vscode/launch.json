@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch JsonTestMain",
+            "request": "launch",
+            "mainClass": "JsonTestMain",
+            "projectName": "alura-stickers_d5e1c2fc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "Teste",
+            "projectName": "alura-stickers_d5e1c2fc"
+        },
+        {
+            "type": "java",
+            "name": "Launch FilmesSeriesImdb",
+            "request": "launch",
+            "mainClass": "FilmesSeriesImdb",
+            "projectName": "alura-stickers_d5e1c2fc"
+        },
+        {
+            "type": "java",
             "name": "Launch GeradoraDeFigurinhas",
             "request": "launch",
             "mainClass": "GeradoraDeFigurinhas",

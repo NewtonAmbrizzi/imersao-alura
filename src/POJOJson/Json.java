@@ -1,3 +1,5 @@
+package POJOJson;
+
 import java.io.IOException;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -7,7 +9,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Json {
 
-    private static ObjectMapper objectMapper = getDefaultObjectMapper();
+    public static ObjectMapper objectMapper = getDefaultObjectMapper();
 
     private static ObjectMapper getDefaultObjectMapper() {
         ObjectMapper defaulObjectMapper = new ObjectMapper();

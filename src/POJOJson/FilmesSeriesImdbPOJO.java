@@ -1,4 +1,6 @@
-public class FilmesSeriesPOJO {
+package POJOJson;
+
+public class FilmesSeriesImdbPOJO {
 
     private String id;
     private int rank;

@@ -16,7 +16,7 @@ Desenvolver uma solução para os grandes players de streaming de vídeo para im
 
 :heavy_check_mark: Colocar a chave da API do IMDB em algum lugar fora do código como um arquivo de configuração (p. ex, um arquivo .properties) ou uma variável de ambiente
 
-:x: Mudar o JsonParser para usar uma biblioteca de parsing de JSON como Jackson ou GSON
+:heavy_check_mark: Mudar o JsonParser para usar uma biblioteca de parsing de JSON como Jackson ou GSON
 
 :heavy_check_mark: Desafio supremo: criar alguma maneira para você dar uma avaliação ao filme, puxando de algum arquivo de configuração OU pedindo a avaliação para o usuário digitar no terminal.
 

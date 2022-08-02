@@ -1,13 +1,15 @@
+package POJOJson;
+
 import java.util.List;
 
 public class ImdbPOJO {
-    private List<FilmesSeriesPOJO> items;
+    private List<FilmesSeriesImdbPOJO> items;
     private String errorMessage;
 
     /**
      * @return List<FilmesSeriesPOJO> return the items
      */
-    public List<FilmesSeriesPOJO> getItems() {
+    public List<FilmesSeriesImdbPOJO> getItems() {
         return items;
     }
 
@@ -18,7 +20,7 @@ public class ImdbPOJO {
         return errorMessage;
     }
 
-    public void setItems(List<FilmesSeriesPOJO> items) {
+    public void setItems(List<FilmesSeriesImdbPOJO> items) {
         this.items = items;
     }
 

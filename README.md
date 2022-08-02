@@ -9,7 +9,6 @@ Desenvolver uma solução para os grandes players de streaming de vídeo para im
 
 ## Aula :one: - Consumindo um API de filmes com Java :clapper:
 
-### Desafios desta aula
 :heavy_check_mark: Consumir o endpoint de filmes mais populares da API do IMDB. Procure também, na documentação da API do IMDB, o endpoint que retorna as melhores séries e o que retorna as séries mais populares.
 
 :heavy_check_mark: Usar sua criatividade para deixar a saída dos dados mais bonitinha: usar emojis com código UTF-8, mostrar a nota do filme como estrelinhas, decorar o terminal com cores, negrito e itálico usando códigos ANSI, e mais!
@@ -22,39 +21,24 @@ Desenvolver uma solução para os grandes players de streaming de vídeo para im
 
 ## Aula :two: - Gerando figurinhas para Whatsapp :speech_balloon:
 
-### Desafios desta aula
-:x: Ler a documentação da classe abstrata InputStream.
+:heavy_check_mark: Ler a documentação da classe abstrata InputStream.
 
 :heavy_check_mark: Centralizar o texto na figurinha.
 
-:x: Fazer um pacote no Whatsapp e/ou Telegram com as suas próprias figurinhas!
-
 :heavy_check_mark: Criar diretório de saída das imagens, se ainda não existir.
 
-:x: Colocar outra fonte como a Comic Sans ou a Impact, a fonte usada em memes.
+:heavy_check_mark: Colocar outra fonte como a Comic Sans ou a Impact, a fonte usada em memes.
 
-:x: Colocar uma imagem de você que está fazendo esse curso sorrindo, fazendo joinha!
+:heavy_check_mark: Tratar as imagens retornadas pela API do IMDB para pegar uma imagem maior ao invés dos thumbnails. Opções: pegar a URL da imagem e remover o trecho mostrado durante a aula ou consumir o endpoint de posters da API do IMDB (mais trabalhoso), tratando o JSON retornado.
 
-:x: Colocar contorno (outline) no texto da imagem.
-
-:x: Tratar as imagens retornadas pela API do IMDB para pegar uma imagem maior ao invés dos thumbnails. Opções: pegar a URL da imagem e remover o trecho mostrado durante a aula ou consumir o endpoint de posters da API do IMDB (mais trabalhoso), tratando o JSON retornado.
-
-:x: Fazer com que o texto da figurinha seja personalizado de acordo com as classificações do IMDB.
-
-:x: Desafio supremo: usar alguma biblioteca de manipulação de imagens como OpenCV pra extrair imagem principal e contorná-la.
+:heavy_check_mark: Fazer com que o texto da figurinha seja personalizado de acordo com as classificações do IMDB.
 
 ## Aula :three: - Ligando as pontas, Refatoração e Orientação a objeto :computer:
 
 ### Desafios desta aula
-:x: Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16
+:heavy_check_mark: Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16
 
-:x: Criar as suas próprias exceções e usá-las na classe que implementa o cliente HTTP
-
-:x: Usar recursos do Java 8 e posterior, como Streams e Lambdas, para mapear uma lista em uma outra
-
-:x: Criar uma Enum que une, como configurações, a URL da API e o extrator utilizado
-
-:x: Desafio supremo: consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente.
+:heavy_check_mark: Desafio supremo: consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente.
 
 ## Aula :four: - Criando nossa própria API com Spring :leaves:
 

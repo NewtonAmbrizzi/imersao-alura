@@ -9,19 +9,19 @@ Desenvolver uma solução para os grandes players de streaming de vídeo para im
 
 ## Algumas Habilidades Desenvolvidas
 
-:heavy_check_mark: Consumir o endpoint de filmes mais populares da API do IMDB. Procure também, na documentação da API do IMDB, o endpoint que retorna as melhores séries e o que retorna as séries mais populares.
+:heavy_check_mark: Consumir o endpoint de filmes mais populares da API do IMDB. Procure também, na documentação da API do IMDB, o endpoint que retorna as melhores séries e o que retorna as séries mais populares (utilizado o TMDB devido a instabilidadade do IMDB).
 
 :heavy_check_mark: Usar sua criatividade para deixar a saída dos dados mais bonitinha: usar emojis com código UTF-8, mostrar a nota do filme como estrelinhas, decorar o terminal com cores, negrito e itálico usando códigos ANSI, e mais!
 
 :heavy_check_mark: Colocar a chave da API do IMDB em algum lugar fora do código como um arquivo de configuração (p. ex, um arquivo .properties) ou uma variável de ambiente
 
-:heavy_check_mark: Mudar o JsonParser para usar uma biblioteca de parsing de JSON como Jackson ou GSON
+:heavy_check_mark: Mudar o JsonParser para usar uma biblioteca de parsing de JSON como Jackson ou GSON (Utilizado Jackson)
 
-:heavy_check_mark: Desafio supremo: criar alguma maneira para você dar uma avaliação ao filme, puxando de algum arquivo de configuração OU pedindo a avaliação para o usuário digitar no terminal.
+:heavy_check_mark: Criar alguma maneira para você dar uma avaliação ao filme, puxando de algum arquivo de configuração OU pedindo a avaliação para o usuário digitar no terminal. (Criado uma geração de notas aleatórias com valor mínimo e máximo, representando a nota do usuário).
 
 :heavy_check_mark: Ler a documentação da classe abstrata InputStream.
 
-:heavy_check_mark: Centralizar o texto na figurinha.
+:heavy_check_mark: Centralizar o texto na figurinha. (Por escolha estética somente o texto da API Pokémon está centralizado)
 
 :heavy_check_mark: Criar diretório de saída das imagens, se ainda não existir.
 
@@ -33,9 +33,11 @@ Desenvolver uma solução para os grandes players de streaming de vídeo para im
 
 :heavy_check_mark: Transformar a classe que representa os conteúdos em um Record, disponível a partir do Java 16
 
-:heavy_check_mark: Desafio supremo: consumir outras APIs que contém imagens, como a da Marvel, que é bem diferente.
+:heavy_check_mark: consumir outras APIs que contém imagens. (utilizei a Pokeapi)
 
-## Aula :four: - Criando nossa própria API com Spring :leaves:
+## :heavy_plus_sign: Bonus!! :heavy_plus_sign:
+
+Criado um menu simples, para que possamos selecionar de qual API desejamos gerar os Stickers.
 
 
 ## Linguagens e Ferramentas utilizados 🛠️

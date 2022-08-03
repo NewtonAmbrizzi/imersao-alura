@@ -1,4 +1,4 @@
-## :coffee: Imersão Java - Alura :coffee:
+## :coffee: Imersão Java  - Alura :coffee:
 
 Bem vindo ao meu repositório da Imersão Java da Alura!!
 
@@ -39,9 +39,19 @@ Desenvolver uma solução para os grandes players de streaming de vídeo para im
 
 Criado um menu simples, para que possamos selecionar de qual API desejamos gerar os Stickers.
 
+![menu](https://user-images.githubusercontent.com/102889694/182528210-43a7b0c1-4b47-4ccd-92cc-614a5806bfcc.JPG)
+
+
+<img src="https://user-images.githubusercontent.com/102889694/182524689-8bf9f095-1412-4194-a456-6186b07c47a7.png" height = "360px" width = "200px" /> <img src="https://user-images.githubusercontent.com/102889694/182524670-e1ab7769-2cc8-4949-8ebc-69da9c973a90.png" height = "360px" width = "200px" /> <img src = "https://user-images.githubusercontent.com/102889694/182526607-e26d5b0a-a3ca-45c8-8662-07a453ba95f7.png" height = "360px" width = "200px" /> <img src = "https://user-images.githubusercontent.com/102889694/182526752-38c9a51d-7626-4a63-94d9-8e49060c3e19.png" height = "360px" width = "200px" />
+
+
+<br/><br/><img src = "https://user-images.githubusercontent.com/102889694/182526276-89927603-cbe4-4b39-873a-bdaf8e70ae9f.png" height = "35%" width = "35%" /> <img src = "https://user-images.githubusercontent.com/102889694/182527165-dc6816d3-5b18-4945-800e-0c67a7dbbf85.png" height = "35.3%" width = "35.3%" />
+
+<br/><br/><img src = "https://user-images.githubusercontent.com/102889694/182527702-92683c32-5be4-4524-9244-2966f985d135.png" height = "20%" width = "20%" /> <img src = "https://user-images.githubusercontent.com/102889694/182527739-67576789-ea50-42b2-9dd0-a31f0dfb8972.png" height = "20%" width = "20%" /> <img src = "https://user-images.githubusercontent.com/102889694/182527751-c8274106-e17b-4e9a-96d5-39200e108972.png" height = "20%" width = "20%" /> <img src = "https://user-images.githubusercontent.com/102889694/182527767-cce7b840-d3a2-4162-bcd8-f8a474c08c47.png" height = "20%" width = "20%" />
+
 
 ## Linguagens e Ferramentas utilizados 🛠️
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" height="5%" width="5%" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" height="5%" width="5%" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="4%" width="4%" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" height="5%" width="5%" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="4%" width="4%" />
 
 ## Autor
 | [<img src="https://avatars.githubusercontent.com/u/102889694?v=4" width=115><br><sub>Newton Ambrizzi</sub>](https://github.com/NewtonAmbrizzi) |
